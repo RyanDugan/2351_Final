@@ -27,6 +27,10 @@ body {
   font-weight: lighter;
 }
 
+.picture {
+  display: none;
+}
+
 .picture img {
   width: 100%;
 }
