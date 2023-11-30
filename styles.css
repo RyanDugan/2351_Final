@@ -9,8 +9,12 @@ body {
   color: white;
 }
 
+.container {
+  position: relative;
+  margin: auto;
+}
+
 .top {
-  background-color: blue;
   display: flex;
   justify-content: center;
   padding: 1em;
@@ -20,10 +24,4 @@ body {
   background-color: green;
   height: 50em;
   width: 30em;
-}
-
-.buttons {
-  background-color: purple;
-  display: flex;
-  justify-content: center;
 }
