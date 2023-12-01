@@ -135,12 +135,6 @@ body {
   }
 }
 
-@media (orientation: landscape) {
-  .container {
-    width: 100%;
-  }
-}
-
 button {
   padding: 0.5em;
   background-color: rgb(193, 193, 243, 0.9);
