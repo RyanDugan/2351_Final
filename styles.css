@@ -133,6 +133,15 @@ body {
 
 button {
   padding: 0.5em;
+  background-color: rgb(193, 193, 243);
+  border: none;
+  text-decoration: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
 }
 
 .center {
