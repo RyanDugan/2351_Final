@@ -6,7 +6,7 @@
 }
 
 hr {
-  width: 500px;
+  width: 35em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,7 +54,7 @@ body {
 
 .photo img {
   width: 100%;
-  padding: 0em 2em 0em 2em;
+  padding: 0em 2em 1em 2em;
 }
 
 .prev,
@@ -128,7 +128,7 @@ body {
   padding-right: 2em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 31.25em) {
   .top,
   .lyrics {
     font-size: smaller;
