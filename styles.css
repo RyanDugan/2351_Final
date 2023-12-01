@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+hr {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: yellow;
 }
 
 body {
@@ -21,9 +36,13 @@ body {
   padding: 1em;
 }
 
+.top h1 {
+  font-size: 3em;
+}
+
 .top h2 {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: lighter;
 }
 
@@ -61,12 +80,12 @@ body {
 }
 
 .lyrics {
-  font-size: 15px;
+  font-size: 1em;
   padding: 8px 12px;
-
   bottom: 8px;
   width: 100%;
   text-align: center;
+  color: rgb(193, 193, 243);
 }
 
 .number {
@@ -93,4 +112,8 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.bottom {
+  opacity: 0.5;
 }
