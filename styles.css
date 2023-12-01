@@ -57,6 +57,7 @@ body {
 
 .prev,
 .next {
+  color: white;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -121,4 +122,11 @@ body {
   display: flex;
   justify-content: end;
   padding-right: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+  .top,
+  .lyrics {
+    font-size: smaller;
+  }
 }
