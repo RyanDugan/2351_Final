@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* 
+  font-family: "Goudy Bookletter 1911", serif;
+  font-family: "Roboto", sans-serif; */
 }
 
 hr {
@@ -38,6 +41,7 @@ body {
 
 .top h1 {
   font-size: 3em;
+  font-family: "Cinzel", serif;
 }
 
 .top h2 {
