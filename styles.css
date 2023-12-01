@@ -54,7 +54,7 @@ body {
 
 .photo img {
   width: 100%;
-  padding: 3em;
+  /* padding: 2em; */
 }
 
 .prev,
@@ -92,15 +92,19 @@ body {
   color: rgb(193, 193, 243);
 }
 
-.number {
+/* .number {
   color: #f2f2f2;
   font-size: 0.8em;
-  padding-left: 2em;
+  padding: 0.5em;
   position: absolute;
   top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.active {
+/* .blacknum {
+  color: black;
+} */
+*/ .active {
   background-color: #717171;
 }
 
