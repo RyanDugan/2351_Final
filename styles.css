@@ -133,6 +133,9 @@ body {
   .lyrics {
     font-size: smaller;
   }
+  hr {
+    width: 19em;
+  }
 }
 
 button {
