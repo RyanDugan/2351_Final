@@ -137,9 +137,11 @@ button {
 
 .center {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  max-width: 300px;
-  margin-left: 13em;
+}
+
+.play,
+.pause {
+  margin: 2em;
 }
