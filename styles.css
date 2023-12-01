@@ -136,6 +136,10 @@ body {
   hr {
     width: 19em;
   }
+
+  .top h1 {
+    padding-left: 1em;
+  }
 }
 
 button {
