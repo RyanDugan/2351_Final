@@ -54,7 +54,7 @@ body {
 
 .photo img {
   width: 100%;
-  padding: 2em;
+  padding: 2em 2em 0em 2em;
 }
 
 .prev,
@@ -85,8 +85,6 @@ body {
 
 .lyrics {
   font-size: 1em;
-  padding: 8px 12px;
-  bottom: 8px;
   width: 100%;
   text-align: center;
   color: rgb(193, 193, 243);
@@ -157,7 +155,6 @@ button:hover {
 .center {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .play,
