@@ -54,7 +54,7 @@ body {
 
 .photo img {
   width: 100%;
-  padding: 0em 2em 1em 2em;
+  padding: 2em;
 }
 
 .prev,
@@ -64,7 +64,7 @@ body {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -100px;
+  margin-top: -3em;
   padding: 10px;
   font-weight: bold;
   font-size: 18px;
