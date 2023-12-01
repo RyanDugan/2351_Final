@@ -23,3 +23,13 @@ function showPhotos(n) {
   }
   photos[photoIndex - 1].style.display = "block";
 }
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+}

@@ -7,6 +7,13 @@
     <title>2351 Final</title>
   </head>
   <body>
+    <audio
+      id="myAudio"
+      src="./assets/Atmosphere Photography Project.m4a"
+      type="audio/mp4"
+    >
+      Your browser does not support the audio element
+    </audio>
     <div class="top"><h1>Ryan's Photography</h1></div>
     <hr />
     <div class="top"><h2>The Atmopshere Project</h2></div>
@@ -100,7 +107,8 @@
       <a class="prev" onclick="plusPhotos(-1)">&#10094;</a>
       <a class="next" onclick="plusPhotos(1)">&#10095;</a>
     </div>
-
+    <button onclick="playAudio()" type="button">Play</button>
+    <button onclick="pauseAudio()" type="button">Pause</button>
     <script src="./app.js"></script>
   </body>
 </html>

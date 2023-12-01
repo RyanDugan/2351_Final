@@ -130,3 +130,7 @@ body {
     font-size: smaller;
   }
 }
+
+button {
+  padding: 0.5em;
+}
