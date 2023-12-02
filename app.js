@@ -36,4 +36,13 @@ function pauseAudio() {
 
 let music = document.getElementById;
 
-console.log(photoIndex);
+let band = { name: "Normandie", founded: 2013, country: "Sweden" };
+
+console.log(
+  "The band " +
+    band.name +
+    " is from " +
+    band.country +
+    " and they were founded in " +
+    band.founded
+);
