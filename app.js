@@ -24,7 +24,7 @@ function showPhotos(n) {
   photos[photoIndex - 1].style.display = "block";
 }
 
-var x = document.getElementById("myAudio");
+let x = document.getElementById("myAudio");
 
 function playAudio() {
   x.play();
