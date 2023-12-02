@@ -33,3 +33,7 @@ function playAudio() {
 function pauseAudio() {
   x.pause();
 }
+
+let music = document.getElementById;
+
+console.log(photoIndex);
