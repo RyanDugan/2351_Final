@@ -44,5 +44,6 @@ console.log(
     " is from " +
     band.country +
     " and they were founded in " +
-    band.founded
+    band.founded +
+    "."
 );
