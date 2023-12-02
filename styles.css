@@ -90,18 +90,6 @@ body {
   color: rgb(193, 193, 243);
 }
 
-/* .number {
-  color: #f2f2f2;
-  font-size: 0.8em;
-  padding: 0.5em;
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* .blacknum {
-  color: black;
-} */
 */ .active {
   background-color: #717171;
 }
